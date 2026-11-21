@@ -1,10 +1,10 @@
-Mini Expense Tracker
+•••Mini Expense Tracker•••
 
 A simple command-line based personal expense tracker developed using Python. It allows users to add expenses, view recorded transactions, calculate total spending, and generate category-wise expense summaries.
 
 Built as a beginner weekend project to practice Python fundamentals through hands-on implementation.
 
-Features
+• Features
 
 - Add Expense: Enter an expense name, amount, and category.
 - View Expenses: Display all recorded expenses.
@@ -13,7 +13,7 @@ Features
 - Interactive Menu: Navigate between different operations using a command-line menu.
 
 
-Concepts Practiced
+• Concepts Practiced
 
 - Variables and Data Types
 - "input()" and "print()"
@@ -25,9 +25,9 @@ Concepts Practiced
 
 ---
 
-Getting Started
+• Getting Started
 
-Prerequisites
+• Prerequisites
 
 - Python 3 installed on your system.
 - A terminal or command-line interface.
@@ -35,22 +35,23 @@ Prerequisites
 Run Locally
 
 1. Clone the repository
-
+```
 git clone https://github.com/MOHDYASIR-315/mini-expense-tracker.git
-
+```
 2. Navigate to the project directory
-
+```
 cd mini-expense-tracker
-
+```
 3. Run the application
-
+```
 python main.py
 
 ---
-
-Application Preview
+```
+• Application Preview:-
 
 1. Main Menu
+```
 ==============================
      MINI EXPENSE TRACKER
 ==============================
@@ -65,9 +66,9 @@ Application started successfully.
 5. Exit
 
 Choose an option:-
-
+```
 2. Add Expense
-
+```
 Enter the expense details when prompted.
 
 Example Input:
@@ -81,9 +82,9 @@ Enter amount:$ 120
 Enter Category: Food
 
 Expense added successfully!
-
+```
 3. View Expenses
-
+```
 Displays all expenses recorded during the current session.
 
 Example Output:
@@ -96,17 +97,17 @@ Expense: Notebook, Amount: $80.0, Category: Education
 Expense: Coffee, Amount: $60.0, Category: Food
 
 =====================
-
+```
 4. Total Spending
-
+```
 Calculates the combined amount of all recorded expenses.
 
 Example Output:
 
 Total expenses:$ 300.0
-
+```
 5. Spending By Category
-
+```
 Calculates the total spending for each category.
 
 Example Output:
@@ -118,23 +119,23 @@ Transport: $40.00
 Education: $80.00
 
 =====================
-
+```
 6. Exit
-
+```
 Closes the application.
 
 Thank you for using Expense Tracker!
 
 ---
-
-Project Structure
-
+```
+• Project Structure
+```
 mini-expense-tracker/
 │
 ├── main.py
 └── README.md
-
-Current Limitations
+```
+• Current Limitations
 
 - Expenses are stored in a Python list of dictionaries.
 - Data exists only while the application is running.
@@ -142,7 +143,7 @@ Current Limitations
 - Invalid non-numeric inputs may cause the program to terminate.
 - Expense names, categories, and amounts have limited validation.
 
-Future Improvements
+• Future Improvements
 
 - Implement functions for better code organization.
 - Add input validation and exception handling.
@@ -152,7 +153,7 @@ Future Improvements
 
 ---
 
-Project Status
+• Project Status
 
 Version 1.0 — Initial Implementation
 
